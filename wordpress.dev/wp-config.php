@@ -29,7 +29,7 @@ define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', '12345' );
 
 /** Имя сервера базы данных */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '127.0.0.1:8889' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -81,6 +81,7 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Произвольные значения добавляйте между этой строкой и надписью "дальше не редактируем". */
+
 
 
 
